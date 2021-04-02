@@ -1,0 +1,79 @@
+.all{
+  font-family: 'Helvetica';
+  color: #52734d;
+}
+
+.top{
+  margin-bottom: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.area{
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.card {
+  background-color: #ddffbc;
+  border-radius: 20px;
+  flex-wrap: nowrap;
+  padding: 20px;
+  margin: 15px;
+
+  transition: height 0.5s ease-in-out;
+  will-change: height;
+}
+
+.icons{
+  margin-top: 10px;
+}
+
+.task-item{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.card-text {
+  min-width: 236px;
+  min-height: 300px;
+}
+
+.boton{
+  background-color:#91c788;
+  border-radius: 20px;
+  border-color: rgba(255, 255, 255, 0);
+  color: white;
+  margin-left: 10px;
+  padding-inline: 20px;
+}
+
+.input{
+  border-style: solid;
+  border-color: #91c788;
+  border-radius: 20px;
+  padding: 10px;
+}
+
+h4 {
+  display: flex;
+  justify-content: center;
+}
+
+ul {
+  list-style-type: none;
+  padding-left: 0px;
+}
+
+hr{
+  border-color: #91c788;
+}
+
+.li-content {
+  height: 30px;
+}
