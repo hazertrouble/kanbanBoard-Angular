@@ -15,6 +15,7 @@ export class Board implements OnInit {
     // Therefore, when you perform any operation on tasks, make sure you pick tasks by names (primary key) instead of any kind of index or any other attribute.
     this.tasks = [
       { name: 'Task 1', stage: 0 }
+      { name: 'Task 2', stage: 0 }
     ];
     this.stagesNames = ['Backlog', 'To Do', 'Ongoing', 'Done'];
     this.configureTasksForRendering();
